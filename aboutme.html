@@ -3,21 +3,30 @@
   <head>
     <style>
    
-      
-      b {
-       border-style: dotted;
-    }
-      
-    h2 {
-        text-transform: uppercase;
-        font-family:Futura,sans-serif;
-        text-align: center;
-        font-size: 60px;
-    }
+     .container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Futura,sans-serif;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+     
       
       p {
         text-align:center;
-        font-size: 35px;
+        font-size: 30px;
       }
       
     </style>
@@ -27,16 +36,13 @@
   <body>
 
    
-    
-<h2>KEZIA ARINKA</h2>
-    
-    img {
-        margin: 0 auto;
-    }
-    <img src="cherry blossom.jpg"
-         alt="RM Cherry Blossoms"
-         style="width:300px;height:300px">
 
+   <div class="container">
+    <img src="cherry blossom.jpg"
+         alt="Cherry Blossoms"
+         style="width:3000px;height:1805px>
+   <div class="center">KEZIA ARINKA</div>
+    
     <p>I'm a junior in high school. Brooklyn, New York. Born in Indonesia. 
     </p>
 
